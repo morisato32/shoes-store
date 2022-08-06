@@ -4,57 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+    </style>
+    <link rel="stylesheet" href="./public/css/styles.css">
     <title>Shoes</title>
 </head>
 <body>
     <header>
-        <img src="" alt="Shoes">
+        <img src="./public/img/logo-color.png" alt="Shoes">
         <nav>
             <ul>
-                <li><a href="#">Todos os Produtos</a></li>
+                <li><a href="#">Todos os Produtos</a></li><!--Li são flex-items-->
                 <li><a href="#">Coleções</a></li>
                 <li><a href="#">Outlet</a></li>
             </ul>
         </nav>
-        <img src="" alt="Vantagens">
     </header>
+    <div id ="destaque">
+        <img src="./public/img/banner.png" alt="Vantagens">
+    </div>
     
     <section id="estilo">
         <h2>encontre seu estilo</h2>
-        <img src="" alt="">
-        <img src="" alt="">
     </section>
-    <section id="off">
+     <section class="photo">   
+        <img class="photo1"src="./public/img/photoshoot-1.png" alt="modelo1">
+        <img class="photo2" src="./public/img/photoshoot-2.png" alt="modelo2">
+     </section>
+     <section id="off">
         <h2>30% OFF</h2>
-        <div>
-            <a href="#">
-                <img src="" alt="">
-                <div>
-                    <span class="nome">Scarpin Salto Fino Básico</span>
-                    <span class="preco">R$ 140,00</span>
-                </div>
-            </a>
-            <a href="#">
-                <img src="" alt="">
-                <div>
-                    <span class="nome">Scarpin Salto Fino Básico</span>
-                    <span class="preco">R$ 140,00</span>
-                </div>
-            </a>
-            <a href="#">
-                <img src="" alt="">
-                <div>
-                    <span class="nome">Scarpin Salto Fino Básico</span>
-                    <span class="preco">R$ 140,00</span>
-                </div>
-            </a>
-            <a href="#">
-                <img src="" alt="">
-                <div>
-                    <span class="nome">Scarpin Salto Fino Básico</span>
-                    <span class="preco">R$ 140,00</span>
-                </div>
-            </a>
+        <div class="box">
+            <div class="retangulo1">
+                <a href="#">
+                    <img src="./public/img/shoes1.png" alt="">
+                    <div>
+                        <span class="nome">Scarpin Salto Fino Básico</span>
+                        <span class="preco">R$ 140,00</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="retangulo2">
+                <a href="#">
+                    <img src="./public/img/shoes2.png" alt="">
+                    <div>
+                        <span class="nome">Scarpin Salto Fino Básico</span>
+                        <span class="preco">R$ 140,00</span>
+                    </div>
+                </a>
+            </div>
+            <div class="retangulo3">
+                <a href="#">
+                    <img src="./public/img/shoes3.png" alt="">
+                    <div>
+                        <span class="nome">Scarpin Salto Fino Básico</span>
+                        <span class="preco">R$ 140,00</span>
+                    </div>
+                </a>
+            </div>
+            <div class="retangulo4">
+                <a href="#">
+                    <img src="./public/img/shoes4.png" alt="">
+                    <div>
+                        <span class="nome">Scarpin Salto Fino Básico</span>
+                        <span class="preco">R$ 140,00</span>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
     <section id="produto-destaque">
@@ -65,7 +82,7 @@
         <img src="" alt="Detalhe do produto">
         <img src="" alt="Produto na modelo">
     </section>
-    <footer>
+    <!--<footer>
         <section id="Contatos">
             <img src="" alt="Shoes">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae, aspernatur porro sapiente quasi numquam distinctio libero corporis</p>
